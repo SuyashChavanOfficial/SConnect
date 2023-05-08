@@ -1,0 +1,73 @@
+/* COLOURS */
+
+/* #FFFAF4 */
+
+/* MAIN */
+
+body {
+    background-color: #FFFAF4 !important;
+    margin: 0;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #8B1874;
+}
+
+.nav-item {
+    padding: 0 2rem 0 2rem;
+    margin: 0;
+}
+
+.scon-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.search-box {
+    margin: 0 5px;
+}
+/* LAYERS */
+
+.layer {
+    margin-top: 5rem;
+}
+
+.sect-round {
+    border-radius: 15px !important;
+}
+
+/* PROFILE SECTION */
+
+.profile-sect {
+    background-color: #f1e8db;
+    border: 5px solid white;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 10px 0px;
+}
+
+/* CONTENT SECTION */
+
+.content-sect {
+    background-color: #f1e8db;
+    border: 5px solid white;
+}
+
+.chat-box {
+    display: block;
+    margin: auto;
+}
+
+/* CHAT SECTION */
+
+.chat-sect {
+    background-color: #f1e8db;
+    border: 5px solid white;
+}
