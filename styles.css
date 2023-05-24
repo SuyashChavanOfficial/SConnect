@@ -1,12 +1,30 @@
 /* COLOURS */
 
 /* #FFFAF4 */
+/* #f1e8db */
+/* #8B1874 */
 
 /* MAIN */
 
 body {
     background-color: #FFFAF4 !important;
     margin: 0;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium !important;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: medium !important;
+    font-family: 'Source Serif Pro', serif;
+}
+
+h4 {
+    font-size: small !important;
+    font-family: 'Source Code Pro', monospace;
 }
 
 /* NAVBAR */
@@ -53,6 +71,10 @@ body {
     margin: 10px 0px;
 }
 
+.profile-info {
+    text-align: start;
+}
+
 /* CONTENT SECTION */
 
 .content-sect {
@@ -60,14 +82,35 @@ body {
     border: 5px solid white;
 }
 
-.chat-box {
-    display: block;
+.latest-post {
+    margin-top: 2px;
+}
+
+.post-box {
+    display: inline-block;
     margin: auto;
+    width: 90%;
+}
+
+#post-box {
+    border: 2px solid #8B1874;
+    border-radius: 25px;
+    height: auto;
 }
 
 /* CHAT SECTION */
+
+.chat-div {
+    text-align: start;
+}
 
 .chat-sect {
     background-color: #f1e8db;
     border: 5px solid white;
 }
+
+.chat-text {
+    font-family: 'Source Code Pro', monospace;
+    font-size: small;
+}
+
